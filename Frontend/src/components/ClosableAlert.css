@@ -1,0 +1,32 @@
+.closable-alert {
+  position: fixed;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050;
+  width: min(95vw, 640px);
+  padding-right: 2.5rem;
+  margin: 0 auto;
+  pointer-events: auto;
+}
+
+.closable-alert-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.65rem;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-size: 1.25rem;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+}
+
+.closable-alert-close:hover {
+  opacity: 0.75;
+}
+
+.closable-alert-message {
+  display: block;
+}
